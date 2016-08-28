@@ -1,0 +1,39 @@
+
+body{
+  background-color: #2b303b;
+}
+
+.screenDisplay {
+  width: 250px;
+  height:100px;
+  background-color: #0f0f10;
+  margin-top: 22px;
+  text-align: right;
+  padding:0;
+}
+
+.screenDisplay-topText {
+  color: #6897BB;
+  top:40px;
+  right:20px;
+
+  position:absolute;
+  text-align: right;
+
+}
+
+.screenDisplay-bottomText {
+  color: #8cd0d3;
+  font-size: 25px;
+  top:70px;
+  right:20px;
+
+  position:absolute;
+  text-align: right;
+
+}
+
+.ui .button{
+  height:40px;
+  width:50px;
+}

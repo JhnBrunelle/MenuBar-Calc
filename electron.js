@@ -8,7 +8,9 @@ const dirname              = __dirname || path.resolve(path.dirname());
 const emberAppLocation     = `file://${dirname}/dist/index.html`;
 var menubar = require('menubar');
 var mb = menubar({
-  index: emberAppLocation
+  index: emberAppLocation,
+  width: 250,
+  height: 380
 });
 
 //let mainWindow = null;
