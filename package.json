@@ -88,5 +88,8 @@
       "ProductName": null,
       "InternalName": null
     }
+  },
+  "dependencies": {
+    "menubar": "^5.1.0"
   }
 }
