@@ -1,40 +1,42 @@
 
 <body>
+  <i class="power icon" style=" color:dimgrey; position:absolute; top: 2px; right:2px;"></i>
+
   <div class="screenDisplay">
-      <div class="screenDisplay-topText">BACON</div>
-      <div class="screenDisplay-bottomText">CHEESEBURGER</div>
+      <div class="screenDisplay-topText">{{stringBuffer}}</div>
+      <div class="screenDisplay-bottomText">{{answerDisplay}}</div>
   </div>
 
 
       <div class="ui list" style="padding: 0 16px">
           <div class="item">
-              <button class="ui grey button">C</button>
-              <button class="ui grey button "style="visibility: hidden">M+</button>
-              <button class="ui grey button" style="visibility: hidden"> h </button>
-              <button class="ui teal button"> / </button>
+              <button class="ui grey button" {{action 'pressButton' 'C'}}>C</button>
+              <button class="ui grey button " {{action 'pressButton' '('}}>(</button>
+              <button class="ui grey button" {{action 'pressButton' ')'}}> ) </button>
+              <button class="ui teal button" {{action 'pressButton' '/'}}> / </button>
           </div>
           <div class="item">
-              <button class="ui grey button">7</button>
-              <button class="ui grey button">8</button>
-              <button class="ui grey button">9</button>
-              <button class="ui teal button"> x </button>
+              <button class="ui grey button" {{action 'pressButton' 7}}>7</button>
+              <button class="ui grey button" {{action 'pressButton' 8}}>8</button>
+              <button class="ui grey button" {{action 'pressButton' 9}}>9</button>
+              <button class="ui teal button" {{action 'pressButton' '*'}}> x </button>
           </div>
           <div class="item">
-              <button class="ui grey button">4</button>
-              <button class="ui grey button">5</button>
-              <button class="ui grey button">6</button>
-              <button class="ui teal button"> - </button>
+              <button class="ui grey button" {{action 'pressButton' 4}}>4</button>
+              <button class="ui grey button" {{action 'pressButton' 5}}>5</button>
+              <button class="ui grey button" {{action 'pressButton' 6}}>6</button>
+              <button class="ui teal button" {{action 'pressButton' '-'}}> - </button>
           </div>
           <div class="item">
-              <button class="ui grey button">1</button>
-              <button class="ui grey button">2</button>
-              <button class="ui grey button">3</button>
-              <button class="ui teal button">+</button>
+              <button class="ui grey button" {{action 'pressButton' 1}}>1</button>
+              <button class="ui grey button" {{action 'pressButton' 2}}>2</button>
+              <button class="ui grey button" {{action 'pressButton' 3}}>3</button>
+              <button class="ui teal button" {{action 'pressButton' '+'}}>+</button>
           </div>
           <div class="item">
-              <button class="ui grey button">0</button>
-              <button class="ui grey button">.</button>
-              <button class="ui blue button" style="width:107px">=</button>
+              <button class="ui grey button" {{action 'pressButton' 0}}>0</button>
+              <button class="ui grey button" {{action 'pressButton' "."}}>.</button>
+              <button class="ui blue button" {{action 'pressButton' "="}}style="width:107px">=</button>
           </div>
       </div>
 
