@@ -16,7 +16,7 @@ body{
   color: #6897BB;
   top:40px;
   right:20px;
-
+  font-size: 20px;
   position:absolute;
   text-align: right;
 
@@ -24,7 +24,7 @@ body{
 
 .screenDisplay-bottomText {
   color: #8cd0d3;
-  font-size: 25px;
+  font-size: 35px;
   top:70px;
   right:20px;
 

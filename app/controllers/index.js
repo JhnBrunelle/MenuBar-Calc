@@ -1,12 +1,13 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
-  stringBuffer: "",
 
+  // Properties
+  stringBuffer: "",
 
   answerDisplay: "0",
 
-
+  // Calculate the answer, called by '=' button
   calculateAnswer : function(){
 
        return eval(this.get("stringBuffer"));
