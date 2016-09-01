@@ -37,3 +37,24 @@ body{
   height:40px;
   width:50px;
 }
+
+.exitButton{
+  color:dimgrey;
+  position:absolute;
+  top: 2px;
+  right:2px;
+}
+
+.exitButton:hover + .exitText{
+  display:block;
+}
+
+.exitText{
+  display:none;
+  color:dimgrey;
+  position:absolute;
+  top: 1px;
+  right:25px;
+  font-size:10px;
+}
+

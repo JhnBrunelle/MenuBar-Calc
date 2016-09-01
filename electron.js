@@ -10,7 +10,8 @@ var menubar = require('menubar');
 var mb = menubar({
   index: emberAppLocation,
   width: 250,
-  height: 380
+  height: 380,
+  icon: "/Users/john/quickCalc/app/assets/xxxicon@2x.png"
 });
 
 //let mainWindow = null;
