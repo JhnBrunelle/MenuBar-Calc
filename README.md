@@ -1,7 +1,15 @@
 # Quick-calc
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A simple Ember/Electron application that runs from your menu bar!
+
+![calculator-img.png](http://i.imgur.com/R6yBs8r.pngstyle=centerme)
+
+## Features
+
+- Clean UI
+- Basic Calculator functions
+- Convenient location
+
 
 ## Prerequisites
 
