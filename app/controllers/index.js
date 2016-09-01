@@ -22,7 +22,6 @@ export default Ember.Controller.extend({
 
         } else if(value === "=") {
           this.set("answerDisplay", this.calculateAnswer());
-          this.set("stringBuffer", this.get('stringBuffer') + " " + value);
 
 
         }else{
