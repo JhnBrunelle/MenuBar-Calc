@@ -4,6 +4,8 @@ A simple Ember/Electron application that runs from your menu bar!
 
 ![calculator-img.png](http://i.imgur.com/R6yBs8r.pngstyle=centerme)
 
+Used as a learning experience to get to know ElectronJS
+
 ## Features
 
 - Clean UI
@@ -21,6 +23,12 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](http://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
+## Uses
+
+* [Ember](https://github.com/emberjs/ember.js)
+* [Ember-Electron](https://github.com/felixrieseberg/ember-electron)
+* [Menubar](https://github.com/maxogden/menubar)
+* [SemanticUI](http://semantic-ui.com/)
 ## Installation
 
 * `git clone <repository-url>` this repository
@@ -30,22 +38,15 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
+* `ember electron`
 
 ### Running Tests
 
-* `ember test`
-* `ember test --server`
+* `ember electron:test`
 
 ### Building
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+* `ember electron:package` (development)
 
 ### Deploying
 
