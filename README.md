@@ -29,6 +29,7 @@ You will need the following things properly installed on your computer.
 * [Ember-Electron](https://github.com/felixrieseberg/ember-electron)
 * [Menubar](https://github.com/maxogden/menubar)
 * [SemanticUI](http://semantic-ui.com/)
+
 ## Installation
 
 * `git clone <repository-url>` this repository
